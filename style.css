@@ -12,6 +12,8 @@
   --background: rgb(18, 18, 18);
 }
 
+
+
 /* General */
 html {
   box-sizing: border-box;
@@ -400,5 +402,17 @@ h2 {
 
   .footer {
     bottom: 10px;
+  }
+}
+
+/* Reduced Motion */
+
+@media (prefers-reduced-motion: reduce ) {
+  .header h1 {
+    animation: none;
+  }
+
+  .social-media-icons i {
+    animation: none;
   }
 }
